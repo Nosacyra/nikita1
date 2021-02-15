@@ -1,4 +1,4 @@
-import java.io.BufferedReader;
+import java.io.BufferedReaderimport java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
@@ -12,12 +12,15 @@ public class calcul {
             case "*":
                 umnozit a = new umnozit();
                 a.umnoz();
+                break;
             case "/":
                 del b = new del();
                 b.del();
+                break;
             case "+":
                 Summa c = new Summa();
                 c.summ();
+                break;
             case "-":
                 Razdnost d = new Razdnost();
                 d.raz();
@@ -31,4 +34,3 @@ public class calcul {
 
 
     }
-
