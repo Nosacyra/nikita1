@@ -8,10 +8,10 @@ public class Raznost {
         public void raz ()throws IOException {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("ввидите первое число:");
-            float countString = Integer.parseInt(reader.readLine());
+            float countString = Float.parseFloat(reader.readLine());
             BufferedReader reader2 = new BufferedReader(new InputStreamReader(System.in));
             System.out.println("ввидите второе число:");
-            float countString2 = Integer.parseInt(reader2.readLine());
+            float countString2 = Float.parseFloat(reader2.readLine());
             float summ = countString-countString2;
             System.out.println("раздность чисел = "  +summ);
 
