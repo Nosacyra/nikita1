@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class stroki {
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        System.out.println("выбирете задачу со строками");
         System.out.println("1-самая большая");
         System.out.println("2-средняя");
         System.out.println("3-самая маленькая");
